@@ -1,0 +1,10 @@
+{
+    "schematics": {
+      "menu": {
+        "aliases": [ "vg" ],
+        "factory": "./vg",
+        "description": "Generates a vg component",
+        "schema": "./vg/schema.json"
+      }
+    }
+}
