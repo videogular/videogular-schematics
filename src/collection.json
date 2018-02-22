@@ -1,6 +1,6 @@
 {
     "schematics": {
-      "menu": {
+      "vg": {
         "aliases": [ "vg" ],
         "factory": "./vg",
         "description": "Generates a vg component",

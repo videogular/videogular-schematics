@@ -10,3 +10,4 @@ npm i
 
 ### Use
 
+ng g vg vgc --vgService --collection vgs
