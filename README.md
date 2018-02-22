@@ -10,4 +10,4 @@ npm i
 
 ### Use
 
-ng g vg vgc --vgService --collection vgs
+ng g videogular-schematics vgc --vgService --collection vgs
