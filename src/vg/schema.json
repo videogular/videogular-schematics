@@ -24,6 +24,101 @@
         "default": true,
         "description": "Flag to indicate whether an videogular service should be generated.",
         "alias": "vgs"
+      },
+      "vgOverlayPlay": {
+        "type": "boolean",
+        "default": false,
+        "description": "Flag for show vg-overlay-play"
+      },
+      "vgBuffering": {
+        "type": "boolean",
+        "default": false,
+        "description": "Flag for show vg-overlay-play"
+      },
+      "vgScrubBar": {
+        "type": "boolean",
+        "default": false,
+        "description": "Flag for show vg-overlay-play"
+      },
+      "vgScrubBarCurrentTime": {
+        "type": "boolean",
+        "default": false,
+        "description": "Flag for show vg-overlay-play"
+      },
+      "vgScrubBarBufferingTime": {
+        "type": "boolean",
+        "default": false,
+        "description": "Flag for show vg-overlay-play"
+      },
+      "vgControls": {
+        "type": "boolean",
+        "default": false,
+        "description": "Flag for show vg-overlay-play"
+      },
+      "vgPlayPause": {
+        "type": "boolean",
+        "default": false,
+        "description": "Flag for show vg-overlay-play"
+      },
+      "vgPlaybackButton": {
+        "type": "boolean",
+        "default": false,
+        "description": "Flag for show vg-overlay-play"
+      },
+      "vgTimeDisplayCurrent": {
+        "type": "boolean",
+        "default": false,
+        "description": "Flag for show vg-overlay-play"
+      },
+      "vgScrubBarControls": {
+        "type": "boolean",
+        "default": false,
+        "description": "Flag for show vg-overlay-play"
+      },
+      "vgTimeDisplayLeft": {
+        "type": "boolean",
+        "default": false,
+        "description": "Flag for show vg-overlay-play"
+      },
+      "vgTimeDisplayTotal": {
+        "type": "boolean",
+        "default": false,
+        "description": "Flag for show vg-overlay-play"
+      },
+      "vgTrackSelector": {
+        "type": "boolean",
+        "default": false,
+        "description": "Flag for show vg-overlay-play"
+      },
+      "vgMute": {
+        "type": "boolean",
+        "default": false,
+        "description": "Flag for show vg-overlay-play"
+      },
+      "vgVolume": {
+        "type": "boolean",
+        "default": false,
+        "description": "Flag for show vg-overlay-play"
+      },
+      "vgFullscreen": {
+        "type": "boolean",
+        "default": false,
+        "description": "Flag for show vg-overlay-play"
+      },
+      "video": {
+        "type": "boolean",
+        "default": true,
+        "description": "Flag for show vg-overlay-play"
+      },
+      "skip": {
+        "type": "boolean",
+        "default": false,
+        "description": "Flag for show vg-overlay-play"
+      },
+      "companionAd": {
+        "type": "boolean",
+        "default": false,
+        "description": "Flag for show vg-overlay-play"
       }
     }
   }

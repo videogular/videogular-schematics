@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChange } from '@angular/core';
 import { VgService } from './vg.service';
 
 
@@ -9,14 +9,15 @@ import { VgService } from './vg.service';
     providers: [VgService]
 })
 
-export class VgComponent {
-    sources: Array<Object>;
+export class VgComponent implements OnChanges {
+
+    @Input() sources: Array<Object>;
+
     constructor() {
-        this.sources = [
-            {
-                src: "http://static.videogular.com/assets/videos/videogular.mp4",
-                type: "video/mp4"
-            },
+        this.sources = [{
+            src: "http://static.videogular.com/assets/videos/videogular.mp4",
+            type: "video/mp4"
+        },
             {
                 src: "http://static.videogular.com/assets/videos/videogular.ogg",
                 type: "video/ogg"
@@ -26,5 +27,9 @@ export class VgComponent {
                 type: "video/webm"
             }
         ];
+    }
+
+    ngOnChanges(changes: {[propKey: string]: SimpleChange}) {
+        this.sources = changes['sources'].currentValue;
     }
 }
