@@ -24,7 +24,7 @@ export default function (options: vgOptions): Rule {
             ...stringUtils,
             ...options
         }),
-        move(options.sourceDir)
+        move('src/app/')
       ]);
       
       return chain([

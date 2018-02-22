@@ -4,10 +4,6 @@
     "title": "videogular Schema",
     "type": "object",
     "properties": {
-      "name": {
-        "type": "string",
-        "default": "name"
-      },
       "path": {
         "type": "string",
         "default": "app"
