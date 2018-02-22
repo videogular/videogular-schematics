@@ -49,7 +49,11 @@
         <% } %>
     </vg-controls>
     <% } %>
-    <video [vgMedia]="media" #media id="singleVideo" preload="auto" crossorigin>
+    <video [vgMedia]="media" #media id="singleVideo" preload="auto" crossorigin
+    <% if (!vgControls) { %>
+        controls
+    <% } %>
+    >
         <source *ngFor="let video of sources" [src]="video.src" [type]="video.type">
     </video>
 </vg-player>
