@@ -23,6 +23,7 @@ copy all file (except node_modules & package-lock.json) into your angular cli pr
 ng g videogular-schematics vgc --vgService --collection vgs
 </pre>
 
+
 ### Options
 
 Command           | Type              | Default                      | Description |
@@ -47,5 +48,3 @@ vgFullscreen | Boolean | false | add [vg-fullscreen](http://videogular.github.io
 video | Boolean | true | add [video](http://videogular.github.io/videogular2/docs/getting-started/how-videogular-works.html)
 skip | Boolean | false | add [skip](http://videogular.github.io/videogular2/docs/)
 companionAd | Boolean | false | add [companionAd](http://videogular.github.io/videogular2/docs/)
-  
-
