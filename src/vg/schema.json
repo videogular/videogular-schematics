@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/schema",
-    "id": "SchemanticsForVideogular",
+    "id": "videogular-schematics",
     "title": "videogular Schema",
     "type": "object",
     "properties": {
@@ -17,11 +17,11 @@
       },
       "sourceDir": {
         "type": "string",
-        "default": "src"
+        "default": "src/app"
       },
       "vgService": {
         "type": "boolean",
-        "default": false,
+        "default": true,
         "description": "Flag to indicate whether an videogular service should be generated.",
         "alias": "vgs"
       }

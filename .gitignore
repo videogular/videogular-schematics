@@ -1,0 +1,40 @@
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+.idea
+.vscode
+.editorconfig
+.idea/workspace.xml
+
+# package manager #
+package-lock.json
+yarn.lock
+
+# Node Files #
+/node_modules
+/bower_components
+npm-debug.log
+
+# Typing #
+/src/typings/tsd/
+/typings/
+/tsd_typings/
+
+# Dist #
+/dist/
+/__build__/**
+.webpack.json
+/src/assets/bower_components/
+
+# Coverage #
+/coverage/
+
+/output/
+/src/compiled/
+.awcache/
+ts-node
+/**/*.ngfactory.ts
+/**/*.css.ts
+/**/*.css.shim.ts
+dll/

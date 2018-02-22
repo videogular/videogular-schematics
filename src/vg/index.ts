@@ -2,6 +2,9 @@ import { chain, mergeWith } from '@angular-devkit/schematics';
 import { vgOptions } from './schema';
 import { apply, filter, move, Rule, template, url, branchAndMerge } from '@angular-devkit/schematics';
 import { normalize } from '@angular-devkit/core';
+import { dasherize, classify} from "@angular-devkit/core/src/utils/strings";
+
+const stringUtils = { dasherize, classify };
 
 function filterTemplates(options: vgOptions): Rule {
   if (!options.vgService) {
@@ -17,7 +20,10 @@ export default function (options: vgOptions): Rule {
     
     const templateSource = apply(url('./files'), [
         filterTemplates(options),
-        template({...options}),
+        template({
+            ...stringUtils,
+            ...options
+        }),
         move(options.sourceDir)
       ]);
       
