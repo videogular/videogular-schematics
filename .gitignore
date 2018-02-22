@@ -5,6 +5,7 @@ Thumbs.db
 .idea
 .vscode
 .editorconfig
+.idea/workspace.xml
 
 # package manager #
 package-lock.json
