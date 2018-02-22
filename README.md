@@ -14,7 +14,7 @@ npm i
 npm run build
 schematics .:videogular-schematics
 
-cd <your-angular-proyect>
+cd your-angular-proyect
 mkdir node_modules/vgs
 </pre>
 copy all file (except node_modules & package-lock.json) into your angular cli project >= 1.5  ( folder node_modules/vgs)
