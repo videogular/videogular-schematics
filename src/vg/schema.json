@@ -17,7 +17,7 @@
       },
       "sourceDir": {
         "type": "string",
-        "default": "src"
+        "default": "src/app"
       },
       "vgService": {
         "type": "boolean",
