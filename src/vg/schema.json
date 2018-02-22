@@ -21,7 +21,7 @@
       },
       "vgService": {
         "type": "boolean",
-        "default": false,
+        "default": true,
         "description": "Flag to indicate whether an videogular service should be generated.",
         "alias": "vgs"
       }
