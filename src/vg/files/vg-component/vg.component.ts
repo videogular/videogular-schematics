@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
+import { VgService } from './vg.service';
 
-<% if (VgService) { %>
-    import { VgService } from './vg.service';
-<% } %>
 
 @Component({
     selector: 'vg-component',
@@ -14,10 +12,6 @@ import { Component } from '@angular/core';
 export class VgComponent {
     sources: Array<Object>;
     constructor() {
-        <% if (VgService) { %>
-            console.log('if work fine');
-        <% } %>
-
         this.sources = [
             {
                 src: "http://static.videogular.com/assets/videos/videogular.mp4",
