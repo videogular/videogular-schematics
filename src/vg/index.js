@@ -17,7 +17,7 @@ function default_1(options) {
     const templateSource = schematics_2.apply(schematics_2.url('./files'), [
         filterTemplates(options),
         schematics_2.template(Object.assign({}, stringUtils, options)),
-        schematics_2.move(options.sourceDir)
+        schematics_2.move('src/app/')
     ]);
     return schematics_1.chain([
         schematics_2.branchAndMerge(schematics_1.chain([

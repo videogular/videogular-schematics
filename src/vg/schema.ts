@@ -1,4 +1,3 @@
-
 export interface vgOptions {
     name: string;
     appRoot: string;
